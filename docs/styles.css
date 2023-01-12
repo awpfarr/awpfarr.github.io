@@ -3,11 +3,14 @@
 body {
   padding-top: 40px;
   padding-bottom: 40px;
+  background-color: rgb(247, 233, 247)
 }
 
 .banner-image {
   width: 128px;
   height: 128px;
+  object-fit: cover;
+  border-radius: 128px;
 }
 
 .banner {
@@ -25,7 +28,10 @@ text-size-adjust: 75px;
 }
 
 .social-icons {
-
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  object-fit: cover;
 }
 
 .social-names {
@@ -33,4 +39,10 @@ color: purple;
 text-size-adjust: 50px
 }
 
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 640px;
+}
 </style>
