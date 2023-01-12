@@ -1,16 +1,27 @@
 <style>
 
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.banner-image {
+  width: 128px;
+  height: 128px;
+}
+
 .banner {
-color: blue;
-text-size-adjust: 100px;
+
 }
 
 .name {
-
+color: purple;
+text-size-adjust: 100px;
 }
 
 .title {
-
+color: green;
+text-size-adjust: 75px;
 }
 
 .social-icons {
@@ -18,7 +29,8 @@ text-size-adjust: 100px;
 }
 
 .social-names {
-
+color: purple;
+text-size-adjust: 50px
 }
 
 </style>
