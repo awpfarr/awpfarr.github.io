@@ -11,6 +11,8 @@ body {
   height: 128px;
   object-fit: cover;
   border-radius: 128px;
+  display: flex;
+  justify-content: center;
 }
 
 .banner {
@@ -20,11 +22,15 @@ body {
 .name {
 color: purple;
 text-size-adjust: 100px;
+display: flex;
+justify-content: center;
 }
 
 .title {
 color: green;
 text-size-adjust: 75px;
+display: flex;
+justify-content: center;
 }
 
 .social-icons {
@@ -32,11 +38,15 @@ text-size-adjust: 75px;
   height: 48px;
   border-radius: 48px;
   object-fit: cover;
+  display: flex;
+  justify-content: center;
 }
 
 .social-names {
 color: purple;
-text-size-adjust: 50px
+text-size-adjust: 50px;
+display: flex;
+justify-content: center;
 }
 
 .items {
